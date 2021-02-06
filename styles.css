@@ -1,0 +1,27 @@
+.headjumbo{
+    background-color: #0064A4;
+    color: whitesmoke;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.top-img {
+    max-width: 5%;
+    max-height: 5%;
+}
+
+#myPic {
+    max-height: 80%;
+    max-width: 90%;
+    padding-right: 2em;
+}
+
+.abtme{
+    padding-left: 1em;
+}
+
+.uciY{
+    color: #FFD200;
+}
