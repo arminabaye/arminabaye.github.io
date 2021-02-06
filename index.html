@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/F6ySJnB/logofavicon.png">
-    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
     <title>In progeess Portfolio</title>
 </head>
 <body>
@@ -23,26 +24,32 @@
 <div class="jumbotron jumbotron-fluid headjumbo">
     <div class="row">
         <div class="col">
-            <h1 class="display-2 text-center pt-5 uciY">Armin Abaye</h1>
-            <h3 class="abtme pt-5">I'm a UI/UX designer and frontend programmer studying at <span class="text-warning">UC Irvine.</span>
+            <h1 class="display-1 text-center pt-5 uciY w3-animate-opacity">Armin Abaye</h1>
+            <h3 class="abtme pt-5 w3-animate-left">I'm a UI/UX designer and frontend programmer studying at <span class="text-warning">UC Irvine.</span>
                 I currently intern at <span class="text-danger">CDW Corporation</span>. I am passionate about technology and social justice, constantly looking for ways to blend the two sectors.
             </h3>
-            <ul class="list-group list-group-horizontal-sm abtme pt-5">
-                <li class="list-group-item text-primary">
-                    <a href="https://www.linkedin.com/in/arminabaye/" target="_blank">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                </li>
-                <li class="list-group-item text-primary">
-                    <a href="https://www.github.com/arminabaye/" target="_blank">
-                        <i class="bi bi-github"></i>
-                    </a>
-                </li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Morbi leo risus</li>
-            </ul>
+            <div class="row">
+                <ul class="list-group list-group-horizontal-sm pt-5 socials">
+                    <li class="list-group-item text-primary">
+                        <a href="https://www.linkedin.com/in/arminabaye/" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item text-primary">
+                        Resume
+                        <a href="https://www.github.com/arminabaye/" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item text-primary">
+                        <a href="https://www.github.com/arminabaye/" target="_blank">
+                            <i class="bi bi-music-note"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col">
+        <div class="col w3-animate-zoom">
             <img id='myPic' src="https://i.imgur.com/z0aO7Jt.jpg" class="img-responsive img-fluid pt-5 rounded-circle float-sm-end" alt="Armin Abaye photo">
         </div>
     </div>
@@ -51,15 +58,62 @@
 
 
 <div class="row">
-    <div class="col">
-        <h1 class="text-center">col1</h1>
+    <div class="col-3 tooclose pt-5">
+        <h3 class="display-3 pt-5 text-center"><a href="https://resist.network/">resist.network</a></h3>
+        <h3>A website to find/post peaceful protests in your community.</h3>
+        <br>
+        <h3 class="text-danger">About the Project:</h3>
+        <p class="lead">
+            I created this website to support the racial justice movement of 2020.
+            Information regarding events was spread out across different social media platforms, making it hard to keep
+            track. The solution: a single platform to create and view events.
+        </p>
+        <h3 class="text-danger">Technical Features:</h3>
+        <ul>
+            <li class="lead">Created in WordPress with modified CSS</li>
+            <li class="lead">Event creation page in JavaScript</li>
+            <li class="lead">Map View uses Google Maps API</li>
+            <li class="lead">65 events and 5000 unique users in first 14 days </li>
+        </ul>
+
     </div>
-    <div class="col">
-        <h1>col2</h1>
+    <div class="col-9">
+        <div class="embed-responsive embed-responsive-16by9 pt-5 mx-auto">
+            <iframe id="resistNet" class="embed-responsive-item w-100" src="https://resist.network" title="resist.network" allowfullscreen></iframe>
+        </div>
+        <br>
+        <br>
     </div>
-    <div class="col">
-        <h1>Contact Me:</h1>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="row">
+    <div class="col-3 pt-3 tooclose">
+        <h3 class="display-3 text-center text-primary">Sleep Scribe</h3>
+        <h3>A mobile application to help you take charge of your sleeping habits.</h3>
+        <br>
+        <h3 class="text-danger">About the Project:</h3>
+        <ul>
+            <li class="lead">Created for mobile in <span class="text-primary">Ionic </span></li>
+            <li class="lead">Runs on iOS, Android, and Responsive Web</li>
+            <li class="lead">Uses local storage to store sleep data even after application close</li>
+            <li class="lead">Can store local storage in AWS/Firebase online</li>
+        </ul>
     </div>
+    <div class="col-4 text-center">
+        <div class="embed-responsive embed-responsive-1by1 mx-auto">
+            <video controls class="embed-responsive-item w-75" src="https://i.imgur.com/rqb5pLO.mp4"  alt="app video 1" autoplay loop></video>
+        </div>
+    </div>
+    <div class="col-4 text-center">
+        <div class="embed-responsive embed-responsive-1by1 mx-auto">
+            <video controls class="embed-responsive-item w-75" src="https://i.imgur.com/PjmByBa.mp4" alt="app video 2" autoplay loop></video>
+        </div>
+    </div>
+
 </div>
 
 

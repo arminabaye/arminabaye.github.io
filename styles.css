@@ -25,3 +25,19 @@ body{
 .uciY{
     color: #FFD200;
 }
+
+.socials{
+    padding-left: 3em;
+}
+
+#resistNet {
+    max-width: 98%;
+    height: 800px;
+    padding-left: 1em;
+}
+
+.tooclose{
+    padding-left: 2em;
+}
+
+video:focus { outline:none; }
